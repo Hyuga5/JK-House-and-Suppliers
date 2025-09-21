@@ -39,11 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
         link.classList.add("text-white");
       });
 
-      mobileLinks.forEach((link) => {
-        link.classList.remove("text-gray-900");
-        link.classList.add("text-white");
-      });
-
       menuToggle.querySelector("svg").classList.remove("text-black");
       menuToggle.querySelector("svg").classList.add("text-white");
     }
