@@ -21,10 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
         link.classList.add("text-gray-900");
       });
 
-      mobileLinks.forEach((link) => {
-        link.classList.remove("text-white");
-        link.classList.add("text-gray-900");
-      });
 
       menuToggle.querySelector("svg").classList.remove("text-white");
       menuToggle.querySelector("svg").classList.add("text-black");
